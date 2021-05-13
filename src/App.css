@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Nav{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 0rem 0rem 2rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px 0 ;
+}
+
+.Nav img{
+  height: 100%;
+}
+
+.Banner{
+  border-radius: 2rem 2rem 2rem 2rem;
+  box-shadow: 0 2px 4px 0;
+  background-color: white;
+  margin: 0rem 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.Banner img{
+  width: 40%;
+}
+
+.text{
+  width: 45%;
+}
+
+.Comics{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Comic{
+  width: 20rem;
+  margin: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 4px 0;
+  border-radius: 2rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.Comic img{
+  width: 100%;
+  border-radius: 2rem 2rem 0rem 0rem ;
+}
+
+.Comic button{
+  box-sizing: border-box;
+  padding: 1rem;
+  margin: 0.5rem 0rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: red;
+  font-size: 1rem;
+  border: none;
+}
+
+
+
